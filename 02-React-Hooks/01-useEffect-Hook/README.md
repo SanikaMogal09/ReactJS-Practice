@@ -10,10 +10,10 @@ useEffcet(()={
 
 ### Remember 
 
--> Without dependency array ==> callback function will run on every single render
--> useEffect hook cannot be written within the conditional statements
--> With empty dependency array[' '] ==>it will only fire that function on the initial render
--> With empty dependency array[value] ==>as state changes that component will render and that callback function will fire
+1.  Without dependency array ==> callback function will run on every single render
+2.  useEffect hook cannot be written within the conditional statements
+3. With empty dependency array[' '] ==>it will only fire that function on the initial render
+4. With empty dependency array[value] ==>as state changes that component will render and that callback function will fire
 
 ### Exercise - Understanding useEffect in React
 
