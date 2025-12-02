@@ -10,7 +10,7 @@ const UpdateUser = () => {
 
         if(newName.trim()){
             updateUser(newName);
-            setNewName('')
+            setNewName('');
         }
     }
 
@@ -26,5 +26,5 @@ const UpdateUser = () => {
   )
 }
 
-export default UpdateUser
+export default UpdateUser;
 
