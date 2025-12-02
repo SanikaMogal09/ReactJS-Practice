@@ -18,6 +18,8 @@ const App = () => {
           <CompA/>
         </Data1.Provider>
       </Data.Provider> */}
+      
+      {/* Exercise */}
       <UserProvider>
         <UserProfile/>
         <UpdateUser/>
