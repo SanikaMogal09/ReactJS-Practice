@@ -9,8 +9,8 @@ export const Data  = createContext();
 export const Data1  = createContext();
 
 const App = () => {
-  const name = 'Sanika'
-  const age = 21
+  const name = 'Sanika';
+  const age = 21;
   return (
     <div>
       {/* <Data.Provider value={name}>
@@ -18,7 +18,7 @@ const App = () => {
           <CompA/>
         </Data1.Provider>
       </Data.Provider> */}
-      
+
       {/* Exercise */}
       <UserProvider>
         <UserProfile/>
@@ -28,4 +28,4 @@ const App = () => {
   )
 }
 
-export default App    
+export default App;  
